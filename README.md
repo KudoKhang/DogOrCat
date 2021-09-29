@@ -162,5 +162,15 @@ pip install -r requirements.txt
 python app.py
 ```
 
+Để sử dụng GUI của Gradio:
+
+```
+python gradio-app.py
+```
+
+<p align="center">
+	<img src="https://i.imgur.com/nA9xcdF.png" />
+</p>
+
 # Summary
 Như đã nói ban đầu thì đây là một ứng dụng khá đơn giản, với tập dữ liệu rất lớn và đầy đủ thì độ chính xác của mô hình sau khi huấn luyện rất cao. Ở đây mình chỉ train chưa xong 2 epoch mà val_acc đã hơn 0.7 rồi. Các bạn có thể train nhiều epochs để độ chính xác được cao hơn.
